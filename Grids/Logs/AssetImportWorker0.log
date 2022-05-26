@@ -1,0 +1,505 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jed/Documents/GitHub/Islander/Grids
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65240
+Successfully changed project path to: C:/Users/Jed/Documents/GitHub/Islander/Grids
+C:/Users/Jed/Documents/GitHub/Islander/Grids
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jed/Documents/GitHub/Islander/Grids/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001650 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 1.838100 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.069000 ms MarkObjects: 1.497100 ms  DeleteObjects: 0.095000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scrips
+  artifactKey: Guid(4a5cd4db0213170449c04d7cdfc03955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrips using Guid(4a5cd4db0213170449c04d7cdfc03955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9689f44298897c0f28fe16168d6493a9') in 0.007379 seconds
+  Import took 0.010246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.415311 seconds.
+  path: Assets/Scrips/Square.png
+  artifactKey: Guid(5364292252b20de41b5d310df329a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scrips/Square.png using Guid(5364292252b20de41b5d310df329a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4597b03cae62566db528069267cf0d8a') in 0.101794 seconds
+  Import took 0.104318 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 1.910600 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.066400 ms MarkObjects: 1.578300 ms  DeleteObjects: 0.085700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.816400 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.494900 ms  DeleteObjects: 0.087200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2057.156141 seconds.
+  path: Assets/Tilesheet/tilesheet_complete.png
+  artifactKey: Guid(282036d10eeac9444bce01e8231ad91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/tilesheet_complete.png using Guid(282036d10eeac9444bce01e8231ad91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1a4fed2c801766354af5b517abab45') in 0.068874 seconds
+  Import took 0.071343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tilesheet/tilesheet_complete_2X.png
+  artifactKey: Guid(9847299974b8bca41889d9962f8bc209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/tilesheet_complete_2X.png using Guid(9847299974b8bca41889d9962f8bc209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871afc1402549afe18cd6d065ad912b') in 0.018246 seconds
+  Import took 0.021033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.590715 seconds.
+  path: Assets/Basic pallet.prefab
+  artifactKey: Guid(c7ed80755adf55146a7c38a6416db5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic pallet.prefab using Guid(c7ed80755adf55146a7c38a6416db5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c11a5504bfbbbf3320992f55ea1d9ab') in 0.013511 seconds
+  Import took 0.016685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.121089 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef
+  artifactKey: Guid(7e93558c536f24149a3181fbe0a14523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef using Guid(7e93558c536f24149a3181fbe0a14523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dea0a56158e2e2b6fa904385c20126') in 0.005835 seconds
+  Import took 0.009033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.451310 seconds.
+  path: Assets/Stone and Ice Blocks/Block_1.png
+  artifactKey: Guid(f72283e5bac82404cb60cd26257ef4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_1.png using Guid(f72283e5bac82404cb60cd26257ef4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b45e788f8577d0a611de172b1eea9c') in 0.016218 seconds
+  Import took 0.019999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Stone and Ice Blocks/Block_10.png
+  artifactKey: Guid(feec03d1211757d41a8e4010801419be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_10.png using Guid(feec03d1211757d41a8e4010801419be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0bb9afed85a922777328b048c1db2b') in 0.011198 seconds
+  Import took 0.013428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Stone and Ice Blocks/halfSquare_5.png
+  artifactKey: Guid(c246f965037fa4645b02ff289590ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/halfSquare_5.png using Guid(c246f965037fa4645b02ff289590ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4933aaf1e6763d765fa1d278cd76bd') in 0.012507 seconds
+  Import took 0.014947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Stone and Ice Blocks/Block_4.png
+  artifactKey: Guid(f2c88b9f8d45f7c4bad2c4e7a95d3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_4.png using Guid(f2c88b9f8d45f7c4bad2c4e7a95d3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c6e667b764821d1d3b4e3d12f7eb6d') in 0.013467 seconds
+  Import took 0.015632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Stone and Ice Blocks/Corner_3.png
+  artifactKey: Guid(3176881b511e2b94da2f6cfe5f171b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Corner_3.png using Guid(3176881b511e2b94da2f6cfe5f171b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1289d59d12a4168e7fc17ba220d51d72') in 0.014339 seconds
+  Import took 0.016520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Stone and Ice Blocks/cornerRamp_1.png
+  artifactKey: Guid(1f4673acae7c6c449b9d04d3716e2e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/cornerRamp_1.png using Guid(1f4673acae7c6c449b9d04d3716e2e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dbbe0f446bbed6cc092adc62604164') in 0.013325 seconds
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Stone and Ice Blocks/Block_2.png
+  artifactKey: Guid(4f7ede23b9d6a944c892ebb244fe12c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_2.png using Guid(4f7ede23b9d6a944c892ebb244fe12c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fcb53efb17f1c9682ad251a947c639') in 0.019128 seconds
+  Import took 0.021868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_04.png
+  artifactKey: Guid(467d060b6d4cba64597d33d67e191305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_04.png using Guid(467d060b6d4cba64597d33d67e191305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b36cadafa80506534464c5bdfb2bb0b') in 0.014054 seconds
+  Import took 0.016956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_08.png
+  artifactKey: Guid(0aad71b4ede9398468a3cb4daabd8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_08.png using Guid(0aad71b4ede9398468a3cb4daabd8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ed08083cefaee4765c0b7726190da8') in 0.015152 seconds
+  Import took 0.017449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_05.png
+  artifactKey: Guid(c2b251a15841e56419b239a2a08bd672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_05.png using Guid(c2b251a15841e56419b239a2a08bd672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc8e4fbb3b3d3b2ca70d28368827a33') in 0.012885 seconds
+  Import took 0.015227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Stone and Ice Blocks/halfSquare_6.png
+  artifactKey: Guid(8b9f9a3100ab2ce4c8e74900363d65c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/halfSquare_6.png using Guid(8b9f9a3100ab2ce4c8e74900363d65c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f987fa6605b29e307a272c4882e8b90') in 0.013310 seconds
+  Import took 0.015752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_06.png
+  artifactKey: Guid(bab0370ce2d745b418af542472792196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_06.png using Guid(bab0370ce2d745b418af542472792196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6c691af96a0af4f97763e1a365976c') in 0.016603 seconds
+  Import took 0.019255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_07.png
+  artifactKey: Guid(b902ceb43ec32444c95480247adcd853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_07.png using Guid(b902ceb43ec32444c95480247adcd853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ca9a4c8743a6ac309c1cc5b67b5cac') in 0.012980 seconds
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Stone and Ice Blocks/halfSquare_2.png
+  artifactKey: Guid(b257d39a0f4e9994b8ac8e83a321beb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/halfSquare_2.png using Guid(b257d39a0f4e9994b8ac8e83a321beb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511746d501e9eca75872aeade62b9c7') in 0.012542 seconds
+  Import took 0.015358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Stone and Ice Blocks/Block_3.png
+  artifactKey: Guid(a995e4ad3b100214dab9863b585ef917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_3.png using Guid(a995e4ad3b100214dab9863b585ef917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d92d14504bb08f310935d781491b47') in 0.015162 seconds
+  Import took 0.017698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Stone and Ice Blocks/Corner_4.png
+  artifactKey: Guid(4d0c1d7830e4a0846b4f3d732ffd7b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Corner_4.png using Guid(4d0c1d7830e4a0846b4f3d732ffd7b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ef59f9b24fe4e610080ed195d56fc9') in 0.010061 seconds
+  Import took 0.012497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_01.png
+  artifactKey: Guid(d582a8c76d39fd44ebc0dcab248e8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_01.png using Guid(d582a8c76d39fd44ebc0dcab248e8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575627ecc5b08edcf25e4f79f50c44b0') in 0.010199 seconds
+  Import took 0.013065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Stone and Ice Blocks/Block_9.png
+  artifactKey: Guid(9cb7bb55428fd534a86d54896663ab4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_9.png using Guid(9cb7bb55428fd534a86d54896663ab4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ea664ac318fe6b8a2ec73f447437fe') in 0.009942 seconds
+  Import took 0.012147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Stone and Ice Blocks/Corner_2.png
+  artifactKey: Guid(284a8bc694f3497479992c49cdee6144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Corner_2.png using Guid(284a8bc694f3497479992c49cdee6144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34466a7279af1ad7a43f15607a0c1e36') in 0.009087 seconds
+  Import took 0.011203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Stone and Ice Blocks/halfSquare_3.png
+  artifactKey: Guid(297b0de77a003a8449065084ae209478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/halfSquare_3.png using Guid(297b0de77a003a8449065084ae209478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d4c8b2b5bfd3d50b8ec615ba56492a') in 0.008353 seconds
+  Import took 0.010580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Stone and Ice Blocks/cornerRamp_3.png
+  artifactKey: Guid(91fd0bf88420c164dbb38b055b4cced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/cornerRamp_3.png using Guid(91fd0bf88420c164dbb38b055b4cced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d175ae98ab0b6236926bb16c557f168') in 0.009235 seconds
+  Import took 0.011536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Stone and Ice Blocks/Block_8.png
+  artifactKey: Guid(d9623c5b24a9e8947a6d1509e697966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_8.png using Guid(d9623c5b24a9e8947a6d1509e697966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0062d1fba8ee361e847fef73564f73') in 0.008874 seconds
+  Import took 0.011018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Stone and Ice Blocks/Block_7.png
+  artifactKey: Guid(ff5aa7a354973d240a34f83ddb13222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_7.png using Guid(ff5aa7a354973d240a34f83ddb13222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0463851acb86a44a93e0132f78019e') in 0.010149 seconds
+  Import took 0.012591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_02.png
+  artifactKey: Guid(c35915ed4ab18d94786f42d435aa5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_02.png using Guid(c35915ed4ab18d94786f42d435aa5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbcb60edc53ac65d16f1f6d9c389af0') in 0.009836 seconds
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Stone and Ice Blocks/Corner_1.png
+  artifactKey: Guid(dc9d86f7c111ae943b28c8544af4ee7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Corner_1.png using Guid(dc9d86f7c111ae943b28c8544af4ee7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df920fba4572368bcd4e14877085d0f') in 0.009998 seconds
+  Import took 0.012706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Stone and Ice Blocks/halfSquare_1.png
+  artifactKey: Guid(5ad48b7b174ae264f941762db118d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/halfSquare_1.png using Guid(5ad48b7b174ae264f941762db118d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bead1a64478d45d1137960f491de1d') in 0.010312 seconds
+  Import took 0.012760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Stone and Ice Blocks/Corner_6.png
+  artifactKey: Guid(eb37478657b09fd4392fd4df2a4b706c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Corner_6.png using Guid(eb37478657b09fd4392fd4df2a4b706c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de088ea4861430d3293c250206866e44') in 0.010446 seconds
+  Import took 0.013366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Stone and Ice Blocks/Corner_5.png
+  artifactKey: Guid(f5b4d6564a1fc734595ab6060c452129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Corner_5.png using Guid(f5b4d6564a1fc734595ab6060c452129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7f179aef3ccb23c5fc15d80ca69e58') in 0.009269 seconds
+  Import took 0.011681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Stone and Ice Blocks/cornerRamp_2.png
+  artifactKey: Guid(adea8456e1768d5419e50d81f965f436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/cornerRamp_2.png using Guid(adea8456e1768d5419e50d81f965f436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce40a99c6eb6b28990ca8d956f808f5') in 0.010996 seconds
+  Import took 0.013862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Stone and Ice Blocks/halfSquare_4.png
+  artifactKey: Guid(f63cff53ba29f9e41b73d54f306867aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/halfSquare_4.png using Guid(f63cff53ba29f9e41b73d54f306867aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cecfe6bf7e8f3cec73fee154e9a2a8') in 0.010274 seconds
+  Import took 0.012743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Stone and Ice Blocks/Block_6.png
+  artifactKey: Guid(91f57a6c7ee645b4fb1ea99329ac0817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_6.png using Guid(91f57a6c7ee645b4fb1ea99329ac0817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6f93e0f15f957feff893cf81ac549b') in 0.011033 seconds
+  Import took 0.013425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Stone and Ice Blocks/cornerRamp_4.png
+  artifactKey: Guid(eab7c6d04fc984940ac1947bbe84731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/cornerRamp_4.png using Guid(eab7c6d04fc984940ac1947bbe84731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82cc0f0dd9d85039fa2be189a1eb18a') in 0.011265 seconds
+  Import took 0.013852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Stone and Ice Blocks/Block_5.png
+  artifactKey: Guid(d0e78995e783eab48b52abb12a2f8b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_5.png using Guid(d0e78995e783eab48b52abb12a2f8b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4e46853038942fa537b3359600eb24') in 0.009953 seconds
+  Import took 0.012545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Stone and Ice Blocks/iceBlock_03.png
+  artifactKey: Guid(a31ec777f6d29114da605d2cad8f8472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/iceBlock_03.png using Guid(a31ec777f6d29114da605d2cad8f8472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973d042492990c0a52e08e4f336c98c4') in 0.009597 seconds
+  Import took 0.012349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Stone and Ice Blocks/cornerRamp_5.png
+  artifactKey: Guid(92eda00a726a779479e96f82aec90aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/cornerRamp_5.png using Guid(92eda00a726a779479e96f82aec90aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa2860eb18b6f6a66bb8d9ac2a24319') in 0.011170 seconds
+  Import took 0.013416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Stone and Ice Blocks/cornerRamp_6.png
+  artifactKey: Guid(3e8a3e71d137552439bb416d1b57e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/cornerRamp_6.png using Guid(3e8a3e71d137552439bb416d1b57e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b0b7babd0d7b80c8b9911c05460dd0') in 0.011789 seconds
+  Import took 0.014070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.428157 seconds.
+  path: Assets/Stone and Ice Blocks
+  artifactKey: Guid(9de26cc88eed7fa4c98ff7b8901bcb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks using Guid(9de26cc88eed7fa4c98ff7b8901bcb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e34c7d45d7eacde32c1a57c4f690f7') in 0.005497 seconds
+  Import took 0.008691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004965 seconds.
+  path: Assets/Stone and Ice Blocks
+  artifactKey: Guid(9de26cc88eed7fa4c98ff7b8901bcb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks using Guid(9de26cc88eed7fa4c98ff7b8901bcb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e34c7d45d7eacde32c1a57c4f690f7') in 0.001941 seconds
+  Import took 0.004549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.426673 seconds.
+  path: Assets/Tiles/Basic Tiles.prefab
+  artifactKey: Guid(67f9f8cf1adb91c4abb9c572b2f27cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Basic Tiles.prefab using Guid(67f9f8cf1adb91c4abb9c572b2f27cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4d23db92978661895f5e1bfad5ea14') in 0.008159 seconds
+  Import took 0.011580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tiles/Tile 1.asset
+  artifactKey: Guid(a13cd877ebba8d748ad26449b68af046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile 1.asset using Guid(a13cd877ebba8d748ad26449b68af046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3fcc851f7fd8e487c2c0b8f1a0c2f1') in 0.023254 seconds
+  Import took 0.025912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.834812 seconds.
+  path: Assets/Stone and Ice Blocks/Block_4.png
+  artifactKey: Guid(f2c88b9f8d45f7c4bad2c4e7a95d3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_4.png using Guid(f2c88b9f8d45f7c4bad2c4e7a95d3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46010dae385292ef6424b6ce61f0971') in 0.012166 seconds
+  Import took 0.015642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003266 seconds.
+  path: Assets/Stone and Ice Blocks/Block_4.png
+  artifactKey: Guid(f2c88b9f8d45f7c4bad2c4e7a95d3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone and Ice Blocks/Block_4.png using Guid(f2c88b9f8d45f7c4bad2c4e7a95d3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46010dae385292ef6424b6ce61f0971') in 0.011485 seconds
+  Import took 0.014245 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
