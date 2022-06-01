@@ -36,6 +36,31 @@ public class BuildingSystem : MonoBehaviour
         {
             InitializeWithObject(prefab2);
         }
+
+        if (!objectToPlace)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (CanBePlaced(objectToPlace))
+            {
+                objectToPlace.Place();
+                Vector3Int start = gridLayout.WorldToCell(objectToPlace.GetStartPosition());
+                TakenArea(start, objectToPlace.Size);
+            }
+
+            else
+            {
+                Destroy(objectToPlace.gameObject);
+            }
+        }
+
+        else if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Destroy(objectToPlace.gameObject);
+        }
     }
 
     #endregion
@@ -62,6 +87,21 @@ public class BuildingSystem : MonoBehaviour
         return position;
     }
 
+    private static TileBase[] GetTilesBlock(BoundsInt area, Tilemap tilemaps)
+    {
+        TileBase[] array = new TileBase[area.size.x * area.size.y * area.size.z];
+        int counter = 0;
+
+        foreach (var v in area.allPositionsWithin)
+        {
+            Vector3Int pos = new Vector3Int(KeyValuePair.x, KeyValuePair.y, z: 0);
+            array[counter] = tilemaps.GetTile(pos);
+            counter++;
+        }
+
+        return array;
+    }
+
     #endregion
 
     #region Building Placement
@@ -75,5 +115,28 @@ public class BuildingSystem : MonoBehaviour
         obj.AddComponent<ObjectDrag>();
     }
 
+    private bool CanBePlaced(PlaceableObject placeableObject)
+    {
+        BoundsInt area = new BoundsInt();
+        area.position = gridLayout.WorldToCell(objectToPlace.GetStartPosition());
+        area.size = placeableObject.Size;
+
+        TileBase[] baseArray = GetTilesBlock(area, MainTilemap);
+
+        foreach (var b in baseArray)
+        {
+            if (b == whiteTile)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public void TakenArea(Vector3Int Start, Vector3Int size)
+    {
+        MainTilemap.BoxFill(Start, whiteTile, start.x, start.y, start.x + size.x, start.y + size.y);
+    }
     #endregion
 }
