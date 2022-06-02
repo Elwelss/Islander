@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,11 @@ public class BuildingSystem : MonoBehaviour
 
     public GameObject prefab1;
     public GameObject prefab2;
+    public GameObject prefab3;
+    public GameObject prefab4;
+    public GameObject prefab5;
+    public GameObject prefab6;
+    public GameObject prefab7;
 
     private PlaceableObject objectToPlace;
 
@@ -27,36 +33,56 @@ public class BuildingSystem : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             InitializeWithObject(prefab1);
         }
-
-        else if (Input.GetKeyDown(KeyCode.B))
+        else if (Input.GetKeyDown(KeyCode.E))
         {
             InitializeWithObject(prefab2);
         }
-
+        else if (Input.GetKeyDown(KeyCode.Y))
+        {
+            InitializeWithObject(prefab3);
+        }
+        else if (Input.GetKeyDown(KeyCode.U))
+        {
+            InitializeWithObject(prefab4);
+        }
+        else if (Input.GetKeyDown(KeyCode.I))
+        {
+            InitializeWithObject(prefab5);
+        }
+        else if (Input.GetKeyDown(KeyCode.O))
+        {
+            InitializeWithObject(prefab6);
+        }
+        else if (Input.GetKeyDown(KeyCode.P))
+        {
+            InitializeWithObject(prefab7);
+        }
         if (!objectToPlace)
         {
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            objectToPlace.Rotate();
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
         {
             if (CanBePlaced(objectToPlace))
             {
                 objectToPlace.Place();
                 Vector3Int start = gridLayout.WorldToCell(objectToPlace.GetStartPosition());
-                TakenArea(start, objectToPlace.Size);
+                TakeArea(start, objectToPlace.Size);
             }
-
             else
             {
                 Destroy(objectToPlace.gameObject);
             }
         }
-
         else if(Input.GetKeyDown(KeyCode.Escape))
         {
             Destroy(objectToPlace.gameObject);
@@ -80,22 +106,22 @@ public class BuildingSystem : MonoBehaviour
         }
     }
 
-    public Vector3 SnapCoordinatesToGrid(Vector3 position)
+    public Vector3 SnapCoordinateToGrid(Vector3 position)
     {
         Vector3Int cellPos = gridLayout.WorldToCell(position);
         position = grid.GetCellCenterWorld(cellPos);
         return position;
     }
 
-    private static TileBase[] GetTilesBlock(BoundsInt area, Tilemap tilemaps)
+    private static TileBase[] GetTilesBlock(BoundsInt area, Tilemap tilemap)
     {
         TileBase[] array = new TileBase[area.size.x * area.size.y * area.size.z];
         int counter = 0;
 
         foreach (var v in area.allPositionsWithin)
         {
-            Vector3Int pos = new Vector3Int(KeyValuePair.x, KeyValuePair.y, z: 0);
-            array[counter] = tilemaps.GetTile(pos);
+            Vector3Int pos = new Vector3Int(v.x, v.y, 0);
+            array[counter] = tilemap.GetTile(pos);
             counter++;
         }
 
@@ -108,7 +134,7 @@ public class BuildingSystem : MonoBehaviour
 
     public void InitializeWithObject(GameObject prefab)
     {
-        Vector3 position = SnapCoordinatesToGrid(Vector3.zero);
+        Vector3 position = SnapCoordinateToGrid(Vector3.zero);
 
         GameObject obj = Instantiate(prefab, position, Quaternion.identity);
         objectToPlace = obj.GetComponent<PlaceableObject>();
@@ -120,7 +146,8 @@ public class BuildingSystem : MonoBehaviour
         BoundsInt area = new BoundsInt();
         area.position = gridLayout.WorldToCell(objectToPlace.GetStartPosition());
         area.size = placeableObject.Size;
-
+        area.size = new Vector3Int(area.size.x + 1, area.size.y + 1, area.size.z);
+        
         TileBase[] baseArray = GetTilesBlock(area, MainTilemap);
 
         foreach (var b in baseArray)
@@ -134,9 +161,11 @@ public class BuildingSystem : MonoBehaviour
         return true;
     }
 
-    public void TakenArea(Vector3Int Start, Vector3Int size)
+    public void TakeArea(Vector3Int start, Vector3Int size)
     {
-        MainTilemap.BoxFill(Start, whiteTile, start.x, start.y, start.x + size.x, start.y + size.y);
+        MainTilemap.BoxFill(start, whiteTile, start.x, start.y, 
+                        start.x + size.x, start.y + size.y);
     }
+
     #endregion
 }
