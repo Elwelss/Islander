@@ -13,27 +13,7 @@ public class BuildingSystem : MonoBehaviour
     [SerializeField] private Tilemap MainTilemap;
     [SerializeField] private TileBase whiteTile;
 
-    public GameObject prefab1;
-    public GameObject prefab2;
-    public GameObject prefab3;
-    public GameObject prefab4;
-    public GameObject prefab5;
-    public GameObject prefab6;
-    public GameObject prefab7;
-    public GameObject prefab8;
-    public GameObject prefab9;
-    public GameObject prefab10;
-    public GameObject prefab11;
-    public GameObject prefab12;
-    public GameObject prefab13;
-    public GameObject prefab14;
-    public GameObject prefab15;
-    public GameObject prefab16;
-    public GameObject prefab17;
-    public GameObject prefab18;
-    public GameObject prefab19;
-    public GameObject prefab20;
-
+    public VisualDefAsset assetToPlant;
     private PlaceableObject objectToPlace;
 
     #region Unity methods
@@ -46,87 +26,15 @@ public class BuildingSystem : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            InitializeWithObject(prefab1);
-        }
-        else if (Input.GetKeyDown(KeyCode.O))
-        {
-            InitializeWithObject(prefab2);
-        }
-        else if (Input.GetKeyDown(KeyCode.I))
-        {
-            InitializeWithObject(prefab3);
-        }
-        else if (Input.GetKeyDown(KeyCode.U))
-        {
-            InitializeWithObject(prefab4);
-        }
-        else if (Input.GetKeyDown(KeyCode.Y))
-        {
-            InitializeWithObject(prefab5);
-        }
-        else if (Input.GetKeyDown(KeyCode.T))
-        {
-            InitializeWithObject(prefab6);
-        }
-        else if (Input.GetKeyDown(KeyCode.L))
-        {
-            InitializeWithObject(prefab7);
-        }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            InitializeWithObject(prefab8);
-        }
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            InitializeWithObject(prefab9);
-        }
-        else if (Input.GetKeyDown(KeyCode.H))
-        {
-            InitializeWithObject(prefab10);
-        }
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            InitializeWithObject(prefab11);
-        }
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            InitializeWithObject(prefab12);
-        }
-        else if (Input.GetKeyDown(KeyCode.M))
-        {
-            InitializeWithObject(prefab13);
-        }
-        else if (Input.GetKeyDown(KeyCode.N))
-        {
-            InitializeWithObject(prefab14);
-        }
-        else if (Input.GetKeyDown(KeyCode.B))
-        {
-            InitializeWithObject(prefab15);
-        }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            InitializeWithObject(prefab16);
-        }
-        else if (Input.GetKeyDown(KeyCode.C))
-        {
-            InitializeWithObject(prefab17);
-        }
-        else if (Input.GetKeyDown(KeyCode.X))
-        {
-            InitializeWithObject(prefab18);
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            InitializeWithObject(prefab19);
-        }
-        else if (Input.GetKeyDown(KeyCode.Q))
-        {
-            InitializeWithObject(prefab20);
-        }
-
+		if (Input.GetMouseButtonDown(0))
+		{
+			Vector3 clickPoint = GetMouseWorldPosition();
+			if (assetToPlant != null)
+			{
+				InitializeWithObject(assetToPlant.asset, clickPoint);
+			}
+		}
+		
         if (!objectToPlace)
         {
             return;
@@ -198,9 +106,9 @@ public class BuildingSystem : MonoBehaviour
 
     #region Building Placement
 
-    public void InitializeWithObject(GameObject prefab)
+    public void InitializeWithObject(GameObject prefab, Vector3 clickPoint)
     {
-        Vector3 position = SnapCoordinateToGrid(Vector3.zero);
+        Vector3 position = SnapCoordinateToGrid(clickPoint);
 
         GameObject obj = Instantiate(prefab, position, Quaternion.identity);
         objectToPlace = obj.GetComponent<PlaceableObject>();
@@ -233,5 +141,14 @@ public class BuildingSystem : MonoBehaviour
                         start.x + size.x, start.y + size.y);
     }
 
+	public void SetAsset(VisualDefAsset asset)
+	{
+		assetToPlant = asset;
+	}
+	
+	public void SetAsset(AssetListItem item)
+	{
+		assetToPlant = item.asset;
+	}
     #endregion
 }
