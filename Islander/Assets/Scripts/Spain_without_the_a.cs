@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spain_without_the_a : MonoBehaviour
 {
     [SerializeField]
-    float speed = 50.0f;
+    float speed = 20.0f;
 
     void Update()
     {
