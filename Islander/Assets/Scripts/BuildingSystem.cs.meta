@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: fdeccba89bb5bac4ba3d410567cae7b9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gridLayout: {instanceID: 0}
+  - MainTilemap: {instanceID: 0}
+  - whiteTile: {instanceID: 0}
+  - prefab1: {fileID: 8517849022149862847, guid: 1c701d7edf377b14daabc3fcc1bd4904, type: 3}
+  - prefab2: {fileID: 7801795469312259011, guid: f33829d6daf610b48b8352b9aa52e11d, type: 3}
+  - prefab3: {fileID: 1667370040404244301, guid: 96ddfbcd2e8ca024094bf6aaf7971df4, type: 3}
+  - prefab4: {fileID: 7795932517600983528, guid: 942983f8f6ec06342b3fa532e19c3ba7, type: 3}
+  - prefab5: {fileID: 8168203781327877125, guid: 237eb663dd307cb47b58ae429ca3f101, type: 3}
+  - prefab6: {fileID: 6210664088970582489, guid: 434a6714308b8c24989645417ec4cd64, type: 3}
+  - prefab7: {fileID: 7604428836884160661, guid: 186b3fd591ffc784ead6f2d679456161, type: 3}
+  - prefab8: {fileID: 5078810319350644641, guid: c2f2ae63a915fff409740b26b0cf5866, type: 3}
+  - prefab9: {fileID: 1413050482068234160, guid: 45c182de47f97ef418719db3423a453e, type: 3}
+  - prefab10: {fileID: 2410135599762637979, guid: 2040a08d7cd3b6e42acc94bef412c48e, type: 3}
+  - prefab11: {fileID: 4531211129138582022, guid: 03e263cd42fadf340a7d24f1ee3ad644, type: 3}
+  - prefab12: {fileID: 5986723715923189455, guid: a35b5b771131ad940a837beb67c168d0, type: 3}
+  - prefab13: {fileID: 2062965992309806769, guid: fb55f65406fc3524583d8877dd1c80a0, type: 3}
+  - prefab14: {fileID: 3746499557773574936, guid: f5ad10b56fbafa04f9689c65146d8f68, type: 3}
+  - prefab15: {fileID: 2196179856433192462, guid: 8e9bef7730210a44c9f5496294a30eed, type: 3}
+  - prefab16: {fileID: 5796811068364150622, guid: 18d7b0b407329414bbe58796e226cde7, type: 3}
+  - prefab17: {fileID: 1731217417024235635, guid: 14a1cc446ada18e40b16d59684b68371, type: 3}
+  - prefab18: {fileID: 5337755458300495400, guid: b47266d3aa187ac4c91dcf2bc233bb68, type: 3}
+  - prefab19: {fileID: 868259665938032200, guid: 911eede4b2ee35149b19c179de0e10f3, type: 3}
+  - prefab20: {fileID: 903631783446752004, guid: 06a58e81ecb40f34dab07628c0d7dc73, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

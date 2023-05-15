@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22621.1702; Version 2009; 64bit' Language: 'en' Physical Memory: 8089 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Admin/Documents/GitHub/Islander/Islander
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64251
+Successfully changed project path to: C:/Users/Admin/Documents/GitHub/Islander/Islander
+C:/Users/Admin/Documents/GitHub/Islander/Islander
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 107.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/GitHub/Islander/Islander/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 M440 (ID=0x6900)
+    Vendor:   
+    VRAM:     4086 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002809 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.10 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.593 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.005 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1896 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 3.949700 ms (FindLiveObjects: 0.473300 ms CreateObjectMapping: 0.173800 ms MarkObjects: 3.217300 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/New Menu.unity
+  artifactKey: Guid(2d58a8eca3cd3a54ca0a1744eb7bcf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Menu.unity using Guid(2d58a8eca3cd3a54ca0a1744eb7bcf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca3559ad854580ff7cd8df39e3d79e5') in 0.045465 seconds
+  Import took 0.051626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.279698 seconds.
+  path: Assets/kenney_platformerkit2
+  artifactKey: Guid(2794a9d66cb4c984cbccea0df965abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformerkit2 using Guid(2794a9d66cb4c984cbccea0df965abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308d61592635102abe109e84980f63dc') in 0.017712 seconds
+  Import took 0.025808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.283181 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack
+  artifactKey: Guid(22aa01f7945846849a34a570ed697d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack using Guid(22aa01f7945846849a34a570ed697d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bd95088cf9cf3b68f20a0cc4dd61d0') in 0.023273 seconds
+  Import took 0.030557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.012422 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx
+  artifactKey: Guid(433f768ca4efeea4da5a9b92fbb7c096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx using Guid(433f768ca4efeea4da5a9b92fbb7c096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad578d34f66846e1088945cdbc1a030c') in 0.022996 seconds
+  Import took 0.032980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.691512 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_01_full.fbx
+  artifactKey: Guid(4a38d4a346f4ba240a4cbe77a71d5e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_01_full.fbx using Guid(4a38d4a346f4ba240a4cbe77a71d5e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c032f31ec33a2bb4c404a454a9ca7075') in 1.137206 seconds
+  Import took 1.146364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_13_full.fbx
+  artifactKey: Guid(97ae5a07f1a3a6c4bae245020caa795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_13_full.fbx using Guid(97ae5a07f1a3a6c4bae245020caa795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb33cc53829280505e24e0406bfd03d') in 1.086552 seconds
+  Import took 1.094949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_20_full.fbx
+  artifactKey: Guid(459ac6843eb6d5243b85f393ee5645bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_20_full.fbx using Guid(459ac6843eb6d5243b85f393ee5645bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4469de8173a413649278a8708c01e9b6') in 1.954419 seconds
+  Import took 1.968575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_04_full.fbx
+  artifactKey: Guid(ee9b620f8d82add448605f32ba985270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_04_full.fbx using Guid(ee9b620f8d82add448605f32ba985270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1549992cb211d239782ff3b42059f419') in 0.678323 seconds
+  Import took 0.683370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_14_full.fbx
+  artifactKey: Guid(d96ae8b618323c340906979cb1af126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_14_full.fbx using Guid(d96ae8b618323c340906979cb1af126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066683dfefaf954b69ef4e63ed8fcead') in 1.328363 seconds
+  Import took 1.336187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_19_full.fbx
+  artifactKey: Guid(b894a8da88584ca4a80442338b8a4b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_19_full.fbx using Guid(b894a8da88584ca4a80442338b8a4b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c906bcfa4df87beb819307b08caf2aef') in 2.191436 seconds
+  Import took 2.199889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_03_full.fbx
+  artifactKey: Guid(6cee10c8314a05848886cd8ed8287ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_03_full.fbx using Guid(6cee10c8314a05848886cd8ed8287ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d43e40c2d87e65f5c69a781950912c') in 0.656930 seconds
+  Import took 0.665252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_05_full.fbx
+  artifactKey: Guid(f7ad41efcf2460c4baaa66afa85967a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_05_full.fbx using Guid(f7ad41efcf2460c4baaa66afa85967a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570fe5b69b10102bcaa15cc114bcade6') in 0.777636 seconds
+  Import took 0.784299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_07_full.fbx
+  artifactKey: Guid(daf78782cef3745478d07eded2937011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_07_full.fbx using Guid(daf78782cef3745478d07eded2937011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822f836f7ec50cc373cbf77364019940') in 0.737432 seconds
+  Import took 0.743843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_17_full.fbx
+  artifactKey: Guid(ff158d58e33c5ae4bb097f4796d7c7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_17_full.fbx using Guid(ff158d58e33c5ae4bb097f4796d7c7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0876e550249c76f888032d3f47978df7') in 1.127340 seconds
+  Import took 1.135305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_11_full.fbx
+  artifactKey: Guid(20cbfe3763219c245a8507eb3e4e7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_11_full.fbx using Guid(20cbfe3763219c245a8507eb3e4e7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f95f8608392003498057cc0376adfe1') in 0.783872 seconds
+  Import took 0.791988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar
+  artifactKey: Guid(01e19700189c249439228d639a7260fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar using Guid(01e19700189c249439228d639a7260fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88751131da1b3eee0acc6b5505375687') in 0.013245 seconds
+  Import took 0.018494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_15_full.fbx
+  artifactKey: Guid(133e8a42516862843828aae6bd231e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_15_full.fbx using Guid(133e8a42516862843828aae6bd231e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a14dd3943137485c99bc3fb60cd9e') in 0.342857 seconds
+  Import took 0.351847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_06_full.fbx
+  artifactKey: Guid(315465537f8774e4eaf0da7eb89a2cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/house_06_full.fbx using Guid(315465537f8774e4eaf0da7eb89a2cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4664c4998ba3daf58863721610eb644') in 0.619423 seconds
+  Import took 0.627567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_12_full.fbx
+  artifactKey: Guid(4add1ab4cddf45b4cb0a7d17a90017a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_12_full.fbx using Guid(4add1ab4cddf45b4cb0a7d17a90017a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49c5e4edd5fb53ca2f37b2c8e2ee04f') in 0.790006 seconds
+  Import took 0.796668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_16_full.fbx
+  artifactKey: Guid(c71b3eb7ed4909d48ae78067e2b3c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_16_full.fbx using Guid(c71b3eb7ed4909d48ae78067e2b3c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5294ec94d88b1896d3c85622b701f2d') in 2.236286 seconds
+  Import took 2.258937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_18_Full.fbx
+  artifactKey: Guid(b7bf08ed7462deb4397fa037444892b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-medieval-houses-3d-low-poly-pack/fbx/House_Full_ordinar/House_18_Full.fbx using Guid(b7bf08ed7462deb4397fa037444892b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3824e9bb91785fff1f6826835db503') in 2.240797 seconds
+  Import took 2.250243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.519940 seconds.
+  path: Assets/Scripts/Spin.cs
+  artifactKey: Guid(77fb541e3eade044b8696eec8f56b88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spin.cs using Guid(77fb541e3eade044b8696eec8f56b88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f92cc04ce9711f00d1efb185c88b3c') in 0.038629 seconds
+  Import took 0.053211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 2.680200 ms (FindLiveObjects: 0.260100 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.271400 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 3.256500 ms (FindLiveObjects: 0.484100 ms CreateObjectMapping: 0.134900 ms MarkObjects: 2.584400 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.487788 seconds.
+  path: Assets/Scripts/Spain_without_the_a.cs
+  artifactKey: Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spain_without_the_a.cs using Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3999e9e83a87f0ecfb440c971fc727') in 0.039566 seconds
+  Import took 0.046908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005215 seconds.
+  path: Assets/Scripts/Spain_without_the_a.cs
+  artifactKey: Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spain_without_the_a.cs using Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3999e9e83a87f0ecfb440c971fc727') in 0.016295 seconds
+  Import took 0.023148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 3.060400 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.653800 ms  DeleteObjects: 0.027500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.671196 seconds.
+  path: Assets/Scripts/Spain_without_the_a.cs
+  artifactKey: Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spain_without_the_a.cs using Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeeda1162d14ce498ad8f73d1c0d19f') in 0.024638 seconds
+  Import took 0.036186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214663 seconds.
+  path: Assets/Scripts/Spain_without_the_a.cs
+  artifactKey: Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spain_without_the_a.cs using Guid(498b0d427360def42a80f5b8d42bc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeeda1162d14ce498ad8f73d1c0d19f') in 0.008975 seconds
+  Import took 0.079279 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 3.734900 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.089200 ms MarkObjects: 3.397200 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.944541 seconds.
+  path: Assets/Scripts/VisualDefAsset.cs
+  artifactKey: Guid(68f0d60651ac3af4f86c64eef16302ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VisualDefAsset.cs using Guid(68f0d60651ac3af4f86c64eef16302ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933b1fd96215ad0be31d7cbf8acff2ed') in 0.022883 seconds
+  Import took 0.035810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002360 seconds.
+  path: Assets/Scripts/VisualDefAsset.cs
+  artifactKey: Guid(68f0d60651ac3af4f86c64eef16302ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VisualDefAsset.cs using Guid(68f0d60651ac3af4f86c64eef16302ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933b1fd96215ad0be31d7cbf8acff2ed') in 0.008115 seconds
+  Import took 0.013222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 2.558900 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.060700 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 3.498100 ms (FindLiveObjects: 0.443800 ms CreateObjectMapping: 0.154600 ms MarkObjects: 2.856500 ms  DeleteObjects: 0.041100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 2.993200 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.151000 ms MarkObjects: 2.496000 ms  DeleteObjects: 0.024200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 3.039600 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.658600 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
