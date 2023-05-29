@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f0d60651ac3af4f86c64eef16302ef, type: 3}
+  m_Name: Long Hous
+  m_EditorClassIdentifier: 
+  preview: {fileID: 21300000, guid: 038ac23938fe0c544bf89c6f7e0a03b0, type: 3}
+  asset: {fileID: 919132149155446097, guid: ee9b620f8d82add448605f32ba985270, type: 3}
